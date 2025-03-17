@@ -1,0 +1,19 @@
+{
+  "name": "watchlist-watcher",
+  "version": "1.0.0",
+  "description": "Collection of scripts to scrape my Letterboxd watchlist, and then find showings for those movies near me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Neto",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "cheerio": "^1.0.0"
+  }
+}
