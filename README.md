@@ -18,8 +18,8 @@ This tool can be hosted in AWS. It will feature two `node 22.x` Lambda functions
 
 ```shell
 src/
-  scrapeAndSync/ # query Letterboxd, parse the HTML, and update Dynamo
-  searchMovies/ # query dynamo db to get specific items, then search
+  scrapeAndSync # query Letterboxd, parse the HTML, and update Dynamo
+  searchMovies # query dynamo db to get specific items, then search
 ```
 
 ## Limitations

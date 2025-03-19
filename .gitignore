@@ -1,2 +1,5 @@
 dist/
 node_modules/
+
+# for development, secrets live in AWS
+.env
