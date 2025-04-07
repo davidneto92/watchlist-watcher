@@ -4,6 +4,7 @@
   "description": "Collection of scripts to scrape my Letterboxd watchlist, and then find showings for those movies near me.",
   "main": "index.js",
   "scripts": {
+    "dev": "npx tsc && node dist/scrapeAndSync.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Neto",

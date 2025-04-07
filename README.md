@@ -10,7 +10,15 @@ Scrape my watchlist and find listings for oldest 10 movies.
   - should start on last page so the first entries are the oldest db entries
 - dump all results into a DB (on first use)
 - sync db with scraped list
-- search 10 oldest movies against theaters in NYC
+- query movies against a set of theaters
+
+## Future
+
+- send results to email
+  - create email lambda
+  - setup email server to send? may be able to use AWS SES
+- run daily as cronjob
+- create CloudFormation script to recreate for other people
 
 ## Deployment
 

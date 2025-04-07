@@ -1,4 +1,11 @@
 export type TMovieScrape = {
   slug: string
-  displayName: string
+  title: string
+  year?: number
 }
+
+export interface TShowing extends Omit<TMovieScrape, 'slug'> {
+  firstShowingDate: string
+}
+
+export type CityGroup = 'nyc' | 'bos'
